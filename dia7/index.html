@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="bg-dark">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link " href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                    aria-expanded="false">Sobre nosotros</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+            </li>
+
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <h1 class="text-center font-weight-bold">Hola bootstrap</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod eum repellendus odit natus doloremque in
+                dolor? Provident modi dolorem facilis quidem velit praesentium facere explicabo voluptas, eum
+                dignissimos ipsa asperiores.</p>
+        </div>
+
+    </main>
+
+    <!--CARDS-->
+
+    <section>
+
+        <div class="container">
+            <div class="row">
+
+                <!--tarjeta 1-->
+                <!-- 12 columnas para mobile-->
+                <!-- 6 columnas para tablet-->
+                <!-- 3 columnas para Desktop-->
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card">
+                        <iframe src="https://www.youtube.com/embed/_Jk8J3T5qPE" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--tarjeta 2-->
+
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbS3thpgG8ymeLgy0fgq38fu-deso1K2No8VG-Fuz-HOG339w7&s"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--tarjeta 3-->
+
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbS3thpgG8ymeLgy0fgq38fu-deso1K2No8VG-Fuz-HOG339w7&s"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--tarjeta 4-->
+
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbS3thpgG8ymeLgy0fgq38fu-deso1K2No8VG-Fuz-HOG339w7&s"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <form class="container">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group">
+                <label for="name">Ingresa tu nombre</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-danger">Submit</button>
+        </form>
+    </section>
+
+
+    
+
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+nav{
+    background: hotpink;
+    height: 100px;
+    padding: 10px 500px;
+}
+
+input{
+    margin-left: 450px;
+    font-size: 30px;
+    margin-left: 200px;
+}
+
+button{
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+footer{
+    background: indianred;
+    height: 50px;
+    padding: 10px 600px;
+    margin-top: 50px;
+}
+
+
+.seccion2{
+    margin-left: 250px;
+}

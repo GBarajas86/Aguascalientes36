@@ -1,0 +1,50 @@
+*{
+    font-family: Arial;
+}
+
+p {
+    color: black;
+    background: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background: #edf90e;
+}
+
+main {
+    background: gray;
+}
+
+/* selectores por clase*/
+
+.par{
+    color: red;
+}
+
+.impar{
+    color: blue;
+}
+
+.caja{
+    background: goldenrod;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    
+}
+
+.square{
+    background: hotpink;
+    height: 100px;
+    width: 100px;
+    
+
+}
+
+/*selectores por id*/
+
+#titulo{
+    color: fuchsia;
+}
+
