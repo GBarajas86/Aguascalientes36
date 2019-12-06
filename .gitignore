@@ -1,2 +1,5 @@
 #ignoramos la carptea vscode
 .vscode/*
+
+#ignorar confidencial
+confidencial.txt
